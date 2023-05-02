@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  width: 500px;
+  height: 100vh;
+  margin: 1em;
+  padding: 2em;
+  background: #7e4ccb;
+  border-radius: 5px;
+  color: aliceblue;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 1.2em;
+}
+::-webkit-scrollbar{
+  width: 36px;
+}
+::-webkit-scrollbar-track{
+  background-color: #7e4ccb;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aliceblue;
+  border-radius: 5px;
+}
